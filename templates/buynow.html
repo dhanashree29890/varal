@@ -1,0 +1,23 @@
+{% include "header.html" %}
+
+    {% block title %}<title>Buy now</title>{% endblock %}
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    {% load static %}
+    <div class="page-heading products-heading header-text">
+        <div class="container">
+<form action='' method='post'>
+    {% csrf_token %}
+Firstname:<input  name="firstname" value="" />
+Lastname:<input name="lastname" value="" />
+<p>PayU Integration Document - Version 2.13 Page 16</p>
+
+Phone<input  name="phone" value="" />
+
+
+Email:<input name="email" value="" />
+<input type= "submit" value="submit">
+</form>
+</div>
+</div>
+{% include "footer.html" %}

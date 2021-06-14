@@ -1,0 +1,3 @@
+psycopg2 #for postgresql
+pillow # for images
+

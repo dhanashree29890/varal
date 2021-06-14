@@ -1,0 +1,20 @@
+{% include "header.html"%}
+{% load static %}
+<div class="page-heading products-heading header-text">
+    <div class="container">
+<h6>Hello, {{ request.session.userip }}</h6>
+
+{% for prod in products%}
+
+<div>
+    <span> </span>
+</div>
+    </div>
+</div>
+
+{%endfor%}
+
+
+
+
+{% include "footer.html"%}
